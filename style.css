@@ -1,0 +1,591 @@
+/*---Header Style Start---*/
+
+/* common button */
+.learn-more-btn{
+    display: flex;
+    color: #241F5E;
+    /* H4 */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    transition: all .5s ease-in;
+}
+.learn-more-btn:hover{
+    transform: scale(1.1);
+
+}
+.learn-more-btn p{
+    position: relative;
+
+}
+.learn-more-btn p::before{
+    content: '';
+    width: 115px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 40px;
+
+}
+/* title style */
+.title{
+    color: var(--Royal_Primary_Color_01, #241F5E);
+    /* sf-h2 */
+    font-family: SF Pro Display;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    position: relative;
+    padding-left: 31px;
+}
+.title::before{
+    content: '';
+    width: 9px;
+    height: 43px;
+    background-color: #010846;
+    position: absolute;
+    left: 0px;
+
+}
+.title span{
+    color: #EA0603;
+}
+/* title style */
+
+
+/* apply round btn */
+.apply-now-round-btn{
+    color: #000000;
+    text-align: center;
+    /* sf-h5 */
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    position: relative;
+    z-index: 1;
+}
+.apply-now-round-btn p{
+    color: #fff;
+
+
+}
+
+.apply-now-round-btn::before{
+    content: '';
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: #EA0603;
+    position: absolute;
+    z-index: -1;
+    left: -41px;
+    top: -25px;
+
+}
+
+.apply-now-round-btn::after{
+    content: '';
+    width: 130px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 34px;
+    left: 0px;
+
+
+}
+
+
+
+/* common button */
+
+
+
+/* top nav */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.top-nav p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.top-nav .contact {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 39px;
+}
+
+.top-nav .contact p {
+    color: #000;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.contact p i {
+    padding-right: 8px;
+
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+
+}
+
+.language p {
+    color: #000;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.language i .fa-sort-down {
+    padding-bottom: -3px;
+
+}
+
+.social {
+    color: #000;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    gap: 7px;
+    transition: all .5s ease-out;
+}
+
+.social i:hover {
+    color: #EA0603;
+
+}
+/* top nav */
+
+/* down nav */
+.down-nav{
+    border-radius: 10px;
+    background: var(--Unnamed-Color, #EA0603);
+    padding: 10px 13px;
+    margin-top: 12.5px;
+}
+.navbar-nav{
+    /* sf-body-text */
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+.nav-item a{
+    color: #fff;
+}
+.button-two{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.search{
+    padding: 10px 14px;
+    border-radius: 7px;
+    background: #241F5E;
+    color: #fff;
+    transition: .5s ease-in-out;
+
+}
+.search:hover{
+    background-color: #ffffff;
+    color: #000;
+    transform: scale(1.2);
+
+}
+.apply-now-btn{
+    padding: 10px 30px;
+    border-radius: 7px;
+    background: #FBD00A;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    letter-spacing: -0.18px;
+    transition: .5s ease-in-out;
+}
+.apply-now-btn:hover{
+    background-color: #fff;
+    transform: scale(1.2);
+
+}
+
+/* down nav */
+/*---Header Style End---*/
+
+/*---Banner Style Start---*/
+.Banner{
+    position: relative;
+    margin-top: -40px;
+    z-index: -1;
+
+}
+/*---Banner Style End---*/
+/*---Welcome Style Start---*/
+.welcome{
+    margin-top: 120px;
+
+}
+.welcome-left-content{
+
+}
+.welcome-left-content h1{
+    color: var(--Royal_Primary_Color_01, #241F5E);
+    /* sf-h2 */
+    font-family: SF Pro Display;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    position: relative;
+    padding-left: 31px;
+
+}
+.welcome-left-content h1::before{
+    content: '';
+    width: 9px;
+    height: 90px;
+    background-color: #000000;
+    top: 6px;
+    position: absolute;
+    left: 0;
+
+
+}
+.welcome-left-content p{
+    color: var(--Unnamed-Color, #535554);
+    text-align: justify;
+    /* sf body 28px */
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    padding-top: 36px;
+    padding-right: 13px;
+
+}
+.welcome .learn-more-btn{
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-top: 116px;
+}
+
+.student-login{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.login-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.login-text h3{
+    color: #000;
+    /* sf-h3 */
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+
+}
+.login-text .learn-more-btn{
+    margin-top: 0px;
+}
+.login-element{
+    background: #ffffff;
+    box-shadow: 0px 40px 57px -24px rgba(15, 15, 15, 0.06);
+    position: relative;
+    padding: 25px 38px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin: 0px 40px;
+    margin-top: -50px;
+}
+
+/*---Welcome Style End---*/
+
+
+/*---chairman-message Start--*/
+.chairman-message{
+    margin-top: 120px;
+    background: #F5F5F5;
+    padding: 50px 0px;
+}
+.message-left-content{
+
+    
+}
+.message-left-content h1{
+    color: #000;
+    font-family: SF Pro Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 72px */
+    text-transform: capitalize;
+}
+.message-left-content h1 span{
+    color: var(--Unnamed-Color, #EA0603);
+
+}
+.message-left-content p{
+    padding-top: 54px;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    position: relative;
+    padding-left: 20px;
+
+}
+.message-left-content .paragraph::before{
+    content: '';
+    width: 4px;
+    height: 155px;
+    background: #010846;
+    position: absolute;
+    left: 0;
+    top: 60px;
+
+}
+
+/*---chairman-message End---*/
+
+/*---Notice board Style Start---*/
+.notice-board{
+    margin-top: 120px;
+
+}
+.notice-link-1{
+    display: flex;
+    gap: 16px ;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 30px;
+    background: #FFF;
+    /* 01 */
+    box-shadow: 0px 40px 57px -24px rgba(15, 15, 15, 0.06);
+    margin-bottom: 16px;
+}
+.notice-date{
+    padding-right: 13px;
+    border-right: 1px solid #000;
+
+}
+.notice-date h3{
+    color: #000;
+    /* sf-h3 */
+    font-family: SF Pro Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    
+}
+.notice-date p{
+    color: #000;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.view-all-notice h6{
+    color: #000;
+    /* sf-h5 */
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+.view-all-notice i{
+    padding-left: 15px;
+
+}
+/*---Notice board Style End---*/
+
+/*---Top Rated Style Start---*/
+.top-rated{
+    background: linear-gradient(0deg, rgba(36, 31, 94, 0.84) 0%, rgba(36, 31, 94, 0.84) 100%), url(img/toprated.jpg), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+
+}
+.top-rated-all-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 54px;
+    padding: 50px 0px;
+    color: #FFF;
+}
+
+/*---Top Rated Style End---*/
+
+/*---Our Programs Start---*/
+.our-programs{
+    margin-top: 120px;
+    padding: 50px 0px;
+    background: #F5F5F5;
+}
+.our-programs .title{
+    padding-bottom: 54px;
+}
+.programs-card{
+    display: flex;
+    flex-direction: column; 
+    transition: all 1.2s ease-in;
+}
+.programs-card .programs-image{
+    background-size: cover;
+    transition: all .5s ease-in;
+}
+.programs-card .programs-image:hover{
+    transform: scale(1.1);
+}
+
+.programs-card .programs-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 32px 32px;
+    background: #FFF;
+    /* 01 */
+    box-shadow: 0px 40px 57px -24px rgba(15, 15, 15, 0.06);
+
+}
+.programs-text .user-date{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: var(--Unnamed-Color, #535554);
+    /* body copy sf 02 */
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.programs-text .user-date i{
+    padding-right: 6px;
+
+}
+.programs-text h3{
+    color: #000;
+    font-family: SF Pro Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding-bottom: 54px;
+    border-bottom: 1px solid #000;
+}
+
+/*---Our Programs End---*/
+
+/*---News and Event Start---*/
+.news-event{
+    margin-top: 120px;
+}
+.news-event .title{
+    padding-bottom: 54px;
+}
+.news-event .news-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.news-card .user-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-card .user-date i{
+    padding-right: 6px;
+}
+.news-card h4{
+    color: #000;
+    /* sf-h4 */
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+}
+.middle-news-card{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.middle-news-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.middle-news-text .user-date{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between !important;
+
+}
+.middle-news-text .user-date i{
+    padding-right: 6px;
+}
+.middle-news-text h3{
+    color: #000;
+    text-align: center;
+    /* sf-h3 */
+    font-family: SF Pro Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+
+}
+/*---News and Event End---*/
