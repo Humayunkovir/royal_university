@@ -110,6 +110,11 @@
 
 
 /* top nav */
+.header-area{
+    position: relative;
+    z-index: 999;
+}
+
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -251,7 +256,6 @@
 
 /*---Banner Style Start---*/
 .Banner{
-    position: relative;
     margin-top: -40px;
     z-index: -1;
 
@@ -588,4 +592,81 @@
     line-height: 120%;
 
 }
+.middle-news-text .learn-more-btn{
+    padding-left: 235px;
+}
 /*---News and Event End---*/
+
+/*---Footer Area Start---*/
+.footer-area{
+    background: linear-gradient(0deg, rgba(217, 35, 45, 0.5) 0%, rgba(217, 35, 45, 0.5) 100%), url(img/footer.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    color: #FFF;
+    /* H6 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 50px 0px;
+    margin-top: 120px;
+}
+.footer-area p{
+    padding-top: 16px;
+}
+.footer-area .teliphone{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    
+}
+.footer-area .mail{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+
+}
+.footer-area .address{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+
+}
+.faculties{
+    color: #FFF;
+    /* sf-body-text */
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+.faculties h4{
+    padding-bottom: 24px;
+}
+.faculties ul{
+    text-decoration: none;
+    text-transform: none;
+    padding-left: 0px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+.faculties ul li{
+    list-style: none;
+        color: #fff;
+
+}
+.faculties ul li a{
+   text-decoration: none;
+   color: #fff;
+
+}
+/*---Footer Area End---*/

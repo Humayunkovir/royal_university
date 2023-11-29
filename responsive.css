@@ -2,4 +2,29 @@
     .top-nav {
      display: none;
     }
+    .news-image img{
+      width: 100%;
+    }
+    .middle-news-text .learn-more-btn{
+      padding-left: 0px;
+
+    }
+    .middle-news-text h3{
+      color: #000;
+      text-align: start;
+      /* sf-h3 */
+      font-family: SF Pro Display;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+    }
+  }
+
+
+  /* Mobile Scree Footer */
+@media only screen and (max-width: 600px) {
+  .faculties{
+    padding-top: 30px;
+  }
   }
